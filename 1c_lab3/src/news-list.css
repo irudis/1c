@@ -1,0 +1,15 @@
+.pagination-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.pagination-item.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.pagination-item:hover:not(.active) {
+    background-color: #f0f0f0;
+}
