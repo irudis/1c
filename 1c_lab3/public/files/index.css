@@ -142,3 +142,10 @@ body::after {
     bottom: 0;
     object-fit: cover;
 }
+
+.news-page-image {
+    height: max(300px, min(50vw, 50vh));
+    max-width: 900px;
+    background-size: cover;
+    overflow: hidden;
+}
